@@ -1,5 +1,4 @@
-"                                                                               
-autocmd FileType c,cpp map<buffer><leader><space>:w<CR>:make<CR>                
+"                                                                                               
 autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()       
                                                                                 
 "txt按照wiki语法高亮                                                            
